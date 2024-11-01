@@ -1,0 +1,33 @@
+body {
+    background-color: #f4f4f4; /* Ganti dengan warna latar belakang yang diinginkan */
+    color: #333; /* Warna teks umum */
+    font-family: Arial, sans-serif; /* Font yang digunakan */
+}
+
+.row {
+    display: flex; /* Mengatur layout menjadi flexbox */
+    flex-wrap: wrap; /* Membiarkan kolom membungkus */
+    justify-content: center; /* Memusatkan kolom */
+}
+
+.col {
+    margin: 10px; /* Jarak antar kolom */
+}
+
+.card {
+    background-color: #D5006D; /* Warna latar belakang card (pink tua) */
+    margin: 10px; /* Jarak antar card */
+    padding: 20px; /* Padding di dalam card */
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+.card-title a {
+    color: #fff; /* Warna teks link menjadi putih */
+    text-decoration: none; /* Menghapus garis bawah pada link */
+    font-weight: bold; /* Menebalkan teks link */
+}
+
+.card-title a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
